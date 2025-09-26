@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg,#f06,#ffcc00)
+    background-color:red;
     color:black;
     margin:0;
     font-family:Roboto,sans-serif;
@@ -17,7 +17,7 @@ body {
 .boks {
     width: 500px;
     height: 200px;
-    border: 1px solid #000;
+    border: 1px solid #b5c367b6;
     padding: 1em;
     margin: 1rem 0;
     background: #fff;
@@ -28,9 +28,10 @@ h1:hover {
     transition: background 0.5s ease;
 }
 
-nav a {
+nav a:hover {
     text-decoration:none;
-    color:#000;
+    color:#ff6600;
+    text-decoration:underline;
 }
 
 table,th, td {
@@ -39,8 +40,27 @@ table,th, td {
 }         
 
 aside {
-    background:orange;
+    background:rgb(221, 168, 71);
     padding:1rem;
     margin:1rem 0;
 
+}
+main{ 
+    background-color: black;
+    width:300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    /* justify-self: unset; */
+    /* align-items: center; */
+
+
+
+}
+
+section {
+    background-color: white;
+    
 }
